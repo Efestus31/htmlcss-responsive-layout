@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+
+}
+.montserrat-font {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+ 
+  .nerko-one-regular {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+    /* region common */
+
+h1{
+    font-size: 56px;
+    color
+}
+
+
+/* region debug */
+
+.debug *{
+    border: 1px dashed;
+}
+
+/* Mobile first */
+
+
+/* Grid system with flexbox */
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.col-8{
+    width: calc ((100% / 12) * 8);
+}
+
+.col-4{
+    width: calc ((100% / 12) * 4);
+}
+
+[class^="col-"]{
+    padding: 0.5rem;
+}
