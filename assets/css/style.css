@@ -21,7 +21,18 @@
 
 h1{
     font-size: 56px;
-    color
+    color: rgb(255, 166, 0)
+}
+ul{
+    list-style: none;
+}
+
+/* region utility */
+.bold{
+    font-weight: bold;
+}
+.app-main{
+    background-color: antiquewhite;
 }
 
 
@@ -46,14 +57,18 @@ h1{
     margin: 0 -1rem;
 }
 
+[class^="col-"]{
+    padding: 0.5rem;
+}
+
 .col-8{
-    width: calc ((100% / 12) * 8);
+    width: calc((100% / 12) * 8);
 }
 
 .col-4{
-    width: calc ((100% / 12) * 4);
+    width: calc((100% / 12) * 4);
 }
 
-[class^="col-"]{
-    padding: 0.5rem;
+.col-12{
+    width: 100%;
 }
