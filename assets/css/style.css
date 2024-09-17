@@ -111,3 +111,13 @@ img{
 .col-20{
     width: 20%;
 }
+.btn{
+    background-color: white;
+    padding: 3px;
+    border-radius: 999px;
+    
+}
+.algn-cnt{
+    align-items: center;
+    justify-content: center;
+}
